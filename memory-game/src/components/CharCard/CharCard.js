@@ -2,7 +2,7 @@ import React from "react";
 import "./CharCard.css";
 
 const CharCard = props => (
-	// cards
+	// cards not algining next to each other. Tried floating and cols. Have a feeling it for image resizing but couldn't figure out why nothing was working.
 	<div className="container">
 		<div className="card">
 			<div className="img-container">

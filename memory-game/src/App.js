@@ -24,7 +24,8 @@ class App extends Component {
 
   guesses = id => {
     const findChar = this.state.unselectedChar.find(char => char.id === id);
-
+    // my if condition is hitting but if I hit the same one again it does not go into my else. 
+    // The random method is working once clicked and the message "You have guesses incorrectly" works
     if (findChar === undefined) {
       this.setState({
         msg: "You have guessed incorrectly!",
