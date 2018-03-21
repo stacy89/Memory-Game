@@ -2,13 +2,17 @@ import React from "react";
 import "./NavBar.css";
 
 const NavBar = props => (
-	<ul className="nav">
-  	<li class="nav-item">
-    	<a class="nav-link" href="/">Rocket Power Memory Game</a>
-  	</li>
-  	<li class="nav-item">{props.msg}</li>
-  	<li class="nav-item">Score: {props.currentScore} | Top Score: {props.topScore}</li>
-	</ul>
+	<div className="row">
+		<div className="col-md-12">
+			<ul className="nav">
+  			<li className="nav-item">
+  		  	<a className="nav-link" href="/">Rocket Power Memory Game</a>
+  			</li>
+  				<li className="nav-item">{props.msg}</li>
+  				<li className="nav-item">Score: {props.currentScore} | Top Score: {props.topScore}</li>
+			</ul>
+		</div>	
+	</div>
 );
 
 export default NavBar;

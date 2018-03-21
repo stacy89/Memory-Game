@@ -2,61 +2,61 @@
 {
 	"id": 1,
 	"name": "Eddie Valentine",
-	"image": "../public/images/Eddie_Valentine.jpg"
+	"image": "./images/Eddie_Valentine.jpg"
 },
 {
 	"id": 2,
 	"name": "Lars Rodriguez",
-	"image": "../public/images/Lars_Rodriguez.jpg"
+	"image": "./images/Lars_Rodriguez.jpg"
 },
 {
 	"id": 3,
 	"name": "Noelani Makani",
-	"image": "../public/images/Noelani_Makani.jpg"
+	"image": "./images/Noelani_Makani.jpg"
 },
 {
 	"id": 4,
 	"name": "Otto Rocket",
-	"image": "../public/images/Otto_Rocket.jpg"
+	"image": "./images/Otto_Rocket.jpg"
 },
 {
 	"id": 5,
 	"name": "Paula Dullard",
-	"image": "../public/images/Paula_Dullard.png"
+	"image": "./images/Paula_Dullard.png"
 },
 {
 	"id": 6,
 	"name": "Raymundo",
-	"image": "../public/images/Raymundo.png"
+	"image": "./images/Raymundo.png"
 },
 {
 	"id": 7,
 	"name": "Reggie Rocket",
-	"image": "../public/images/Reggie_Rocket.jpg"
+	"image": "./images/Reggie_Rocket.jpg"
 },
 {
 	"id": 8,
 	"name": "Sam Dullard",
-	"image": "../public/images/Sam_Dullard.jpg"
+	"image": "./images/Sam_Dullard.jpg"
 },
 {
 	"id": 9,
 	"name": "Sandy Rodriguez",
-	"image": "../public/images/Sandy_Rodriguez.jpg"
+	"image": "./images/Sandy_Rodriguez.jpg"
 },
 {
 	"id": 10,
 	"name": "Sputz Ringley",
-	"image": "../public/images/Sputz_Ringley.jpg"
+	"image": "./images/Sputz_Ringley.jpg"
 },
 {
 	"id": 11,
 	"name": "Tito Makani",
-	"image": "../public/images/Tito_Makani.jpg"
+	"image": "./images/Tito_Makani.jpg"
 },
 {
 	"id": 12,
 	"name": "Trish",
-	"image": "../public/images/Trish.jpg"
+	"image": "./images/Trish.jpg"
 }
 ]

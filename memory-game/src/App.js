@@ -23,7 +23,7 @@ class App extends Component {
   };
 
   guesses = id => {
-    const findChar = this.state.unselectChar.find(char => char.id === id);
+    const findChar = this.state.unselectedChar.find(char => char.id === id);
 
     if (findChar === undefined) {
       this.setState({
@@ -57,9 +57,9 @@ class App extends Component {
         {
           this.state.characters.map(char => (
             <CharCard 
-              key={this.state.id}
-              name={this.state.name}
-              image={this.state.image}
+              key={char.id}
+              name={char.name}
+              image={char.image}
               guesses={this.guesses}
               currentScore={this.state.currentScore}
             />  
